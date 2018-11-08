@@ -13,8 +13,12 @@ input[type=text]:focus {
 }
 
 form {
-  color: DodgerBlue;
+  color: Black;
   font-weight: bold;
+}
+
+#init {
+  background-color: white;
 }
 
 .body {
