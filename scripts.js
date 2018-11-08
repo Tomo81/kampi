@@ -13,5 +13,6 @@ function showTable() {
   stopnieX2 == "20" && minutyX2 == "48" && sekundyX2 == "45" && kierunekX2.toLowerCase() == "E".toLowerCase() ) {
     alert("Good job!\nOto miejsce zbiórki.");
     document.getElementById("resultTable").style.visibility = "visible";
+    document.getElementById("myMap").style.visibility = "visible”;
   }
 }
