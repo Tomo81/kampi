@@ -1,11 +1,10 @@
-// Wprowadzanie
 
-**WPROWADŹ DANE**
+** MIEJSCE ZBIÓRKI **
 
-Stopnie | Minuty | Sekundy
-------- | ------|-------
-tekst | tekst | tekst
-tekst | tekst | tekst
+Stopnie | Minuty | Sekundy |
+-------|------|-------|
+52° | 18' | 39'' | N
+20 | °48' | 45'' | E
 
 
 
