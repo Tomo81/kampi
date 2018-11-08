@@ -3,7 +3,7 @@
 **WPROWADŹ DANE**
 
 Stopnie | Minuty | Sekundy
------------- | ------|-------
+------- | ------|-------
 tekst | tekst | tekst
 tekst | tekst | tekst
 
