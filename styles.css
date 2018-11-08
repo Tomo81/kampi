@@ -10,7 +10,11 @@ input[type=text]:focus {
 
 .myForm {
   text-align: center;
-  color: white;
+}
+
+form {
+  color: DodgerBlue;
+  font-weight: bold;
 }
 
 .body {
@@ -23,6 +27,14 @@ input[type=text]:focus {
 }
 
 #resultTable {
+  visibility: hidden;
+}
+
+#myMap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
   visibility: hidden;
 }
 
