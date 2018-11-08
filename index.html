@@ -1,10 +1,33 @@
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;margin-left:auto;margin-right:auto;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-wp8o{border-color:#000000;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="scripts.js"></script>
+  <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEnD0_KHS_Hg9eghpIao86vO4mMLtazAk&callback=initMap"></script>
+  <title>Kampi</title>
+   <meta charset="UTF-8">
+</head>
+<body>
+
+<h1 style="text-align:center;">Kampi</h1>
+
+<div class="myForm">
+  <form name="coordinatesForm" action="#" target="_top">
+    Wprowadź rozwiązania: <input type="text" name="stopnie1" maxlength="2" size="2" autofocus="true" title="2 cyfry" pattern="[0-9]{2}">
+    <input type="text" name="minuty1" maxlength="2" size="2" title="2 cyfry" pattern="[0-9]{2}">
+    <input type="text" name="sekundy1" maxlength="2" size="2" title="2 cyfry" pattern="[0-9]{2}">
+    <input type="text" name="kierunek1" maxlength="2" size="2" title="1 litera" pattern="[A-za-z]{1}">
+    <input type="text" name="stopnie2" maxlength="2" size="2" title="2 cyfry" pattern="[0-9]{2}">
+    <input type="text" name="minuty2" maxlength="2" size="2" title="2 cyfry" pattern="[0-9]{2}">
+    <input type="text" name="sekundy2" maxlength="2" size="2" title="2 cyfry" pattern="[0-9]{2}">
+    <input type="text" name="kierunek2" maxlength="2" size="2" title="1 litera" pattern="[A-za-z]{1}">
+
+    <input type="button" value="Sprawdź" onclick="showTable()">
+  </form>
+</div>
+<br><br>
+
+<table class="tg" id="resultTable">
   <tr>
     <th class="tg-wp8o">Stopnie</th>
     <th class="tg-wp8o">Minuty</th>
@@ -24,3 +47,6 @@
     <td class="tg-wp8o">E</td>
   </tr>
 </table>
+
+</body>
+</html>
