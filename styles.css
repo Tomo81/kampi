@@ -21,6 +21,11 @@ form {
   background-color: white;
 }
 
+h1 {
+  color: Black;
+  background-color: white;
+}
+
 .body {
   background-image: url("matrix.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
